@@ -1,0 +1,7 @@
+{% extends "errors/error.html.twig" %}
+
+{% block content %}
+    {% set error_title = 'Page not found' %}
+    {% set error_message = 'The given URL matches no resource on this server.' %}
+    {{ parent() }}
+{% endblock %}

@@ -1,0 +1,7 @@
+{% extends "errors/error.html.twig" %}
+
+{% block content %}
+    {% set error_title = 'Server error' %}
+    {% set error_message = 'An error occured on the server.' %}
+    {{ parent() }}
+{% endblock %}

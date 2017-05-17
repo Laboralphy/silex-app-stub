@@ -1,0 +1,7 @@
+{% extends "errors/error.html.twig" %}
+
+{% block content %}
+    {% set error_title = 'Internal server error' %}
+    {% set error_message = 'The page could not be transmitted due to an internal error.' %}
+    {{ parent() }}
+{% endblock %}

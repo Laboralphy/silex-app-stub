@@ -1,0 +1,7 @@
+{% extends "errors/error.html.twig" %}
+
+{% block content %}
+    {% set error_title = 'Forbidden' %}
+    {% set error_message = 'Access to this resources is denied.' %}
+    {{ parent() }}
+{% endblock %}

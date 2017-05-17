@@ -1,0 +1,13 @@
+<div class="row field-element">
+    <div class="col lg-12"><label>{{ label }}</label></div>
+    <div class="col lg-12">
+        {% for opt in options %}
+            {% include 'form-elements/radio.html.twig' with {
+                'name': name ~ '[]',
+                'label': opt.label,
+                'value': opt.value,
+                'checked': opt.checked | default(false)
+            } %}
+        {% endfor %}
+    </div>
+</div>

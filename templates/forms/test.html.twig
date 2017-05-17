@@ -1,0 +1,95 @@
+<form method="post">
+    <div class="row">
+        <div class="col lg-4 md-6 sm-12">
+            {% include 'form-elements/input.html.twig' with {'type': 'text', 'name': 'inp1', 'label': 'input1'} %}
+        </div>
+        <div class="col lg-4 md-6 sm-12">
+            {% include 'form-elements/input.html.twig' with {'value': 'def', 'type': 'text', 'id': 'inp2', 'name': 'inp2', 'label': 'input2'} %}
+        </div>
+        <div class="col lg-4 md-6 sm-12">
+            {% include 'form-elements/select.html.twig' with {
+                'name': 'sel1',
+                'label': 'select1',
+                'options': [
+                    { 'value': 'o1', 'label': 'option1' },
+                    { 'value': 'o2', 'label': 'option2' },
+                    { 'value': 'o3', 'label': 'option3', 'selected': true },
+                ]
+            } %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col lg-4 md-6 sm-12">
+            {% include 'form-elements/select.html.twig' with {
+                'name': 'sel2',
+                'label': 'select2',
+                'multiple': true,
+                'size': 5,
+                'options': [
+                    { 'value': 'o1', 'label': 'option1' },
+                    { 'value': 'o2', 'label': 'option2', 'selected': false },
+                    { 'value': 'o3', 'label': 'option3', 'selected': true },
+                ]
+            } %}
+        </div>
+        <div class="col lg-4 md-6 sm-12">
+            <div class="row">
+                <div class="col lg-12">
+                    {% include 'form-elements/radio-group.html.twig' with {
+                        'name': 'rg1',
+                        'label': 'the radio group',
+                        'options': [
+                    { 'value': 'rgx1', 'label': 'option radio 1' },
+                    { 'value': 'rgx2', 'label': 'option radio 2', 'checked': true },
+                    { 'value': 'rgx3', 'label': 'option radio 3' }
+                        ]
+                    } %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col lg-4 md-6 sm-12">
+            <div class="row">
+                <div class="col lg-12">
+                    {% include 'form-elements/checkbox-group.html.twig' with {
+                    'name': 'cb1',
+                    'label': 'the checkboxes',
+                    'options': [
+                    { 'value': 'cbx1', 'label': 'option cb 1' },
+                    { 'value': 'cbx2', 'label': 'option cb 2', 'checked': true },
+                    { 'value': 'cbx3', 'label': 'option cb 3', 'checked': true  }
+                    ]
+                    } %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col lg-4 md-6 sm-12">
+            <div class="row">
+                <div class="col lg-12">
+                    {% include 'form-elements/textarea.html.twig' with {
+                    'name': 'texta',
+                    'value': 'zerzer
+zerzer
+zerzer
+dfgdfg
+
+ertert',
+                    'label': 'the text',
+                    'height': 8
+                    } %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col lg-4 md-6 sm-12">
+            {% include 'form-elements/submit.html.twig' with {
+                    'label': 'Send'
+            }
+            %}
+        </div>
+    </div>
+</form>

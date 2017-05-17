@@ -1,0 +1,9 @@
+{% set idx = id | default('') %}
+{% if idx == '' %}{% set idx = uniqid() %}{% endif %}
+<div class="row field-element">
+    <div class="col lg-12">
+        {% set checked = checked | default(false) %}
+        <input id="{{ idx }}" name="{{ name }}" type="checkbox" value="{{ value }}" {% if checked %}checked="checked"{% endif %} />
+        <label for="{{ idx }}">{{ label }}</label>
+    </div>
+</div>
