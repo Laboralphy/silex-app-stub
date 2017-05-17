@@ -5,7 +5,8 @@
     <div class="col lg-12">
         {% set multiple = multiple | default(false) %}
         {% set name = multiple ? name ~ '[]' : name %}
-        <select id="{{ idx }}" name="{{ name }}" size="{{ size | default('') }}"{% if multiple %} multiple="multiple"{% endif %}>
+        {% set size = size | default(false) %}
+        <select id="{{ idx }}" name="{{ name }}"{%  if size %} size="{{ size }}"{% endif %}{% if multiple %} multiple="multiple"{% endif %}>
             {% for opt in options %}
             {% set selected = opt.selected | default(false) %}
             <option value="{{ opt.value }}"{% if selected %} selected="selected"{% endif %}>{{ opt.label }}</option>

@@ -1,0 +1,115 @@
+{
+  "label": "Paranoia Agent",
+  "thumbnails": [],
+  "titles": {
+
+    "e01": {
+      "filename": "paranoia-agent.d1.t1.vfr.qh.webm",
+      "type": "ep",
+      "n": 1,
+      "alang": "fr",
+      "slang": "",
+      "quality": "h"
+    },
+    "e02": {
+      "filename": "paranoia-agent.d1.t2.vfr.qh.webm",
+      "type": "ep",
+      "n": 2,
+      "alang": "fr",
+      "slang": "",
+      "quality": "h"
+    },
+    "e03": {
+      "filename": "paranoia-agent.d1.t3.vfr.qh.webm",
+      "type": "ep",
+      "n": 3,
+      "alang": "fr",
+      "slang": "",
+      "quality": "h"
+    },
+    "e04": {
+      "filename": "paranoia-agent.d1.t4.vfr.qh.webm",
+      "type": "ep",
+      "n": 4,
+      "alang": "fr",
+      "slang": "",
+      "quality": "h"
+    },
+
+    "e05": {
+      "filename": "paranoia-agent.d2.t1.vfr.qh.webm",
+      "type": "ep",
+      "n": 5,
+      "alang": "fr",
+      "slang": "",
+      "quality": "h"
+    },
+    "e06": {
+      "filename": "paranoia-agent.d2.t2.vfr.qh.webm",
+      "type": "ep",
+      "n": 6,
+      "alang": "fr",
+      "slang": "",
+      "quality": "h"
+    },
+    "e07": {
+      "filename": "paranoia-agent.d2.t3.vfr.qh.webm",
+      "type": "ep",
+      "n": 7,
+      "alang": "fr",
+      "slang": "",
+      "quality": "h"
+    },
+
+    "e08": {
+      "filename": "paranoia-agent.d3.t1.vfr.qh.webm",
+      "type": "ep",
+      "n": 8,
+      "alang": "fr",
+      "slang": "",
+      "quality": "h"
+    },
+    "e09": {
+      "filename": "paranoia-agent.d3.t2.vfr.qh.webm",
+      "type": "ep",
+      "n": 9,
+      "alang": "fr",
+      "slang": "",
+      "quality": "h"
+    },
+    "e10": {
+      "filename": "paranoia-agent.d3.t3.vfr.qh.webm",
+      "type": "ep",
+      "n": 10,
+      "alang": "fr",
+      "slang": "",
+      "quality": "h"
+    },
+
+    "e11": {
+      "filename": "paranoia-agent.d4.t1.vfr.qh.webm",
+      "type": "ep",
+      "n": 11,
+      "alang": "fr",
+      "slang": "",
+      "quality": "h"
+    },
+    "e12": {
+      "filename": "paranoia-agent.d4.t2.vfr.qh.webm",
+      "type": "ep",
+      "n": 12,
+      "alang": "fr",
+      "slang": "",
+      "quality": "h"
+    },
+    "e13": {
+      "filename": "paranoia-agent.d4.t3.vfr.qh.webm",
+      "type": "ep",
+      "n": 13,
+      "alang": "fr",
+      "slang": "",
+      "quality": "h"
+    }
+
+  }
+}
